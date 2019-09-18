@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button">
+
+
+<!-- LayOut One -->
+    <LinearLayout
+        android:id="@+id/one"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+<!--  TextView -->
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Your Name"
+           android:textColorHint="@color/white"
+           android:textSize="20dp"
+           android:padding="10dp"
+           />
+
+    </LinearLayout>
+
+
+    <!-- LayOut Two -->
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/one"
+
+        >
+
+        <!--  Button One -->
+        <Button
+            android:id="@id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/one"
+            android:layout_margin="20dp"
+            android:background="@color/btnColor"
+            android:text="Button"
+            android:textAllCaps="false"
+            />
+        <!--  Button Two -->
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/two"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Button"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
