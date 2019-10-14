@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CountryProfile</string>
+    <string name="bangladesh_button">Bangladesh</string>
+    <string name="india_button">India</string>
+    <string name="pakistan_button">Pakistan</string>
+
+    <string name="bangladesh_text">
+        President Abdul Hamid and Prime Minister Sheikh Hasina \n\n
+        paid tributes to the martyrs
+        of the Liberation War by placing floral wreaths at the National Mausoleum at Savar at dawn.\n\n
+
+        The president first placed the wreath at the altar of the National Memorial with the rising of the sun.
+        He was followed by the PM.\n\n
+
+        They then stood in solemn silence for some time as a mark of profound respect to the martyrs.
+
+    </string>
+
+    <string name="india_text">
+        Description\n\n
+
+       Day 01: Delhi – Jaipur
+      Meeting at the airport, transfer to hotel, accommodation, rest. Delhi is the capital of India
+        – the third largest city in the world.\n\n
+
+     Day 02: Jaipur
+     A visit to the majestic Amber Fort, towering on a high hill, which for a long time served
+        as a citadel and palace of the Maharaja’s book dynasty.
+
+    </string>
+
+    <string name="pakistan_text">
+        THE GLOBAL DESTINATION FOR LOVERS OF NATURE, FOOD, HISTORY  HOSPITALITY\n\n
+
+       Pakistan is situated at the western periphery of South Asia and ranks among
+        the most significant members of the developing world.
+        It is a global destination for the admirers of nature’s marvels and beauty.\n\n
+
+        From the highest peaks in the world like K2, to the mighty Indus river;
+        from mouth-watering cuisine to handcrafted pieces of art, Pakistan offers
+        an experience of a lifetime to all its visitors.
+
+    </string>
+</resources>

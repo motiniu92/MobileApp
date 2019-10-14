@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bacgroundColor">#A007C2</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="buttonColor">#8DA7F5</color>
+    <color name="imageColor">#CB19DD</color>
+
+
+    <color name="bangladeshColor">#EE910A</color>
+    <color name="indiaColor">#4CE7DA</color>
+    <color name="pakistanColor">#8B7C30</color>
+</resources>
