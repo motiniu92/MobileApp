@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/call"
+        android:layout_marginTop="20dp"
+      android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter your phone number"
+       android:textSize="30dp"
+       android:textColorHint="@color/etColor"
+       android:id="@+id/phoneNumberET"
+       android:inputType="number"
+       android:layout_centerInParent="true"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callBtn"
+        android:layout_below="@+id/phoneNumberET"
+        android:text="Call"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
